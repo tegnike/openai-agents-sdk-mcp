@@ -3,7 +3,7 @@
 
 ![](assets/header.png)
 
-# 🤖 openai-agents-sdk-mcp minimal
+# openai-agents-sdk-mcp minimal
 
   <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python Version">
   <img src="https://img.shields.io/badge/OpenAI-Agents-green.svg" alt="OpenAI Agents">
@@ -15,14 +15,15 @@
 OpenAIのAgents SDKを使用して、MCPサーバーを利用したAIエージェントを作成します。
 </p>
 
-## 📚 目次
+## 目次
 
-- [🚀 環境のセットアップ](#-環境のセットアップ)
-- [🔑 環境変数](#-環境変数)
-- [⚙️ 環境に応じた設定](#-環境に応じた設定)
-- [▶️ 実行方法](#-実行方法)
+- [環境のセットアップ](#-環境のセットアップ)
+- [環境変数](#-環境変数)
+- [環境に応じた設定](#-環境に応じた設定)
+- [実行方法](#-実行方法)
+- [プロジェクト構造](#-プロジェクト構造)
 
-## 🚀 環境のセットアップ
+## 環境のセットアップ
 
 1. このリポジトリをクローンします。
 
@@ -51,7 +52,7 @@ uv pip install -r requirements.txt
 cp .env.example .env
 ```
 
-## 🔑 環境変数
+## 環境変数
 
 以下の環境変数を`.env`ファイルに設定する必要があります：
 
@@ -65,7 +66,7 @@ OPENAI_API_KEY=your_openai_api_key
 BRAVE_API_KEY=your_brave_api_key
 ```
 
-## ⚙️ 環境に応じた設定
+## 環境に応じた設定
 
 `main.py`のnpxコマンドのパスは、使用する環境に応じて変更してください：
 
@@ -73,7 +74,7 @@ BRAVE_API_KEY=your_brave_api_key
 "command": "npx"
 ```
 
-## ▶️ 実行方法
+## 実行方法
 
 プログラムを実行します：
 
@@ -81,7 +82,7 @@ BRAVE_API_KEY=your_brave_api_key
 python main.py
 ```
 
-## 🛠️ プロジェクト構造
+## プロジェクト構造
 
 ```
 .
