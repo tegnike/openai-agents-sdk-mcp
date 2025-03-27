@@ -12,7 +12,7 @@ load_dotenv()
 async def main():
     async with MCPServerStdio(
         params={
-            "command": "/Users/user/.volta/bin/npx",
+            "command": "npx",
             "args": ["-y", "@modelcontextprotocol/server-brave-search"],
             "env": {"BRAVE_API_KEY": os.getenv("BRAVE_API_KEY")},
         }
