@@ -69,14 +69,8 @@ BRAVE_API_KEY=your_brave_api_key
 
 `main.py`のnpxコマンドのパスは、使用する環境に応じて以下のように設定してください：
 
-- Linux環境の場合：
 ```python
 "command": "npx"
-```
-
-- MacOS環境の場合：
-```python
-"command": "/Users/user/.volta/bin/npx"
 ```
 
 ## ▶️ 実行方法
