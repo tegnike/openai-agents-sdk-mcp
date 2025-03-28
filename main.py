@@ -12,8 +12,8 @@ load_dotenv()
 async def main():
     async with MCPServerStdio(
         params={
-            "command": "npx", # Linux環境用
-            # "command": "/Users/user/.volta/bin/npx",  # MacOS環境用
+            "command": "npx",  # Linux環境用
+            # "command": "/Users/user/.volta/bin/npx",  # MacOS環境用（volta利用時）
             # "command": "C:\\Program Files\\nodejs\\npx.cmd",  # Windows環境用
             "args": ["-y", "@modelcontextprotocol/server-brave-search"],
             "env": {"BRAVE_API_KEY": os.getenv("BRAVE_API_KEY")},

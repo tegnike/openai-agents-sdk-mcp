@@ -76,7 +76,7 @@ BRAVE_API_KEY=your_brave_api_key
 
 ### 参考：
 ```python
-"command": "/Users/user/.volta/bin/npx",  # MacOS環境用
+"command": "/Users/user/.volta/bin/npx",  # MacOS環境用（volta利用時）
 "command": "C:\\Program Files\\nodejs\\npx.cmd",  # Windows環境用
 ```
 
